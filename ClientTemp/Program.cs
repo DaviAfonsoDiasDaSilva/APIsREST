@@ -57,20 +57,22 @@ class Program
 
                 try
                 {
-                    var resp = await http.GetAsync(url, cts.Token);
+                    var resp = await http.GetAsync(url, cts.Token);/*Pega a resposte do servidor*/
                     if (!resp.IsSuccessStatusCode)
                     {
                         erro = true;
                         throw new Exception();
-                    }
-                    var json = await resp.Content.ReadAsStringAsync();
-                    using var doc = JsonDocument.Parse(json);
-                    if (!doc.RootElement.TryGetProperty("valor", out var valorElem))
+                    }/*Exibe mensagem de erro caso o a resposta seja invalida*/
+                    var json = await resp.Content.ReadAsStringAsync();/*Converte para string de forma assíncrona*/
+                    using var doc = JsonDocument.Parse(json);/*Converte a variavel Json para um objeto e 
+                    a descarta ao final do bloco*/
+                    if (!doc.RootElement.TryGetProperty("valor", out var valorElem))/*Verifica se o programa conseguiu receber a temperatura e caso tenha dado errado manda uma mensagem de erro*/
                         throw new Exception();
                     tempAtual = valorElem.GetDouble();
                 }
                 catch
                 {
+                    // Se ocorrer erro ao obter temperatura, exibe mensagem
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"[{agora:HH:mm:ss}] Erro ao obter leitura");
                     Console.ResetColor();
@@ -80,7 +82,7 @@ class Program
 
                 // Exibe resultado
                 Console.Write($"[{agora:HH:mm:ss}] Temperatura: {tempAtual:0.00} ");
-                Console.Write(unidade == "celsius" ? "°C" : unidade == "kelvin" ? "K" : "°F");
+                Console.Write(unidade == "celsius" ? "°C" : unidade == "kelvin" ? "K" : "°F");/*Varios ifs compactados*/
                 Console.Write(" → ");
 
                 if (ultimaTemp == null)
