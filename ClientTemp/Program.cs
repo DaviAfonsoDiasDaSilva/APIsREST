@@ -15,8 +15,9 @@ class Program
         while (true)
         {
             Console.Write("Informe a unidade (celsius, kelvin ou fahrenheit): ");
-            unidade = Console.ReadLine()?
-            .Trim()/*Remove espaços em branco extras ao fim da string*/
+            unidade = Console.ReadLine()
+            ?.Trim()/*Remove espaços em branco extras ao fim da string
+            Caso o usuario nn digita nada retorna null*/
             .ToLower();
             if (unidade == "celsius" || unidade == "kelvin" || unidade == "fahrenheit")
                 break;
@@ -28,7 +29,7 @@ class Program
         while (true)
         {
             Console.Write("Informe o intervalo entre leituras (em segundos): ");
-            if (int.TryParse(Console.ReadLine(), out intervalo)/*Converte pra inteiro se não conseguir retorna um erro*/
+            if (int.TryParse(Console.ReadLine(), /*--*/out intervalo/*Insere o que foi digitado na variavel intervalo ja convertido pra int--*/)/*Converte pra inteiro se não conseguir retorna um erro*/
              && intervalo > 0)
                 break;
             Console.WriteLine("Intervalo inválido. Tente novamente.");
