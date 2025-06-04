@@ -53,7 +53,7 @@ class Program
             while (!cts.Token.IsCancellationRequested)
             {
                 DateTime agora = DateTime.Now;
-                double? tempAtual = null;
+                double? tempAtual = null;/*o ? define a variavel como nuable*/
                 bool erro = false;
 
                 try
