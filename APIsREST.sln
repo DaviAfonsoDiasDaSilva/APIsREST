@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerTemp", "ServerTemp", "{B137BE98-C5E4-0CC0-A63C-392E1073F928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorTemp", "ServerTemp\ServidorTemp\ServidorTemp.csproj", "{B9213D5B-C0FC-E19F-7DFF-1DD3F7D2661C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9213D5B-C0FC-E19F-7DFF-1DD3F7D2661C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9213D5B-C0FC-E19F-7DFF-1DD3F7D2661C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9213D5B-C0FC-E19F-7DFF-1DD3F7D2661C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9213D5B-C0FC-E19F-7DFF-1DD3F7D2661C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9213D5B-C0FC-E19F-7DFF-1DD3F7D2661C} = {B137BE98-C5E4-0CC0-A63C-392E1073F928}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5BB7FC3-744B-4813-831C-E62B3B572CAC}
+	EndGlobalSection
+EndGlobal

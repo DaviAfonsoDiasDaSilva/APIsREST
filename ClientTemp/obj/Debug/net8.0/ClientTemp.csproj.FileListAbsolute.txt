@@ -1,0 +1,15 @@
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/bin/Debug/net8.0/ClientTemp
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/bin/Debug/net8.0/ClientTemp.deps.json
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/bin/Debug/net8.0/ClientTemp.runtimeconfig.json
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/bin/Debug/net8.0/ClientTemp.dll
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/bin/Debug/net8.0/ClientTemp.pdb
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.GeneratedMSBuildEditorConfig.editorconfig
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.AssemblyInfoInputs.cache
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.AssemblyInfo.cs
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.csproj.CoreCompileInputs.cache
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.sourcelink.json
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.dll
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/refint/ClientTemp.dll
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.pdb
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ClientTemp.genruntimeconfig.cache
+/home/a2023952853/Área de Trabalho/APIsREST/ClientTemp/obj/Debug/net8.0/ref/ClientTemp.dll
